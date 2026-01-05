@@ -360,7 +360,6 @@ console.log(people); // you can remove it
 const table = document.querySelector('.dashboard');
 
 people.forEach(person => {
- console.log(person.name);
  const tr = document.createElement('tr');
  const NameTd = document.createElement('td');
  NameTd.textContent = person.name;
